@@ -7,5 +7,17 @@ class Main {
 
     Camera cam1 = CameraFactory.createRandomCamera();
     System.out.println(cam1);
+
+    CameraDB db = new CameraDB();
+    db.storeCameras();
+
+    System.out.println("All Cameras:");
+    db.processQuery("SELECT * FROM Cameras");
+
+    System.out.println("All Fuji Cameras:");
+    db.processQuery("SELECT * FROM Cameras WHERE brand = 'Fuji'");
+
+    System.out.println("All cameras with more than 24 mega pixels:");
+    db.processQuery("SELECT * FROM Cameras WHERE megaPx > 24");
   }
 }
