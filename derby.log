@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Sep 24 21:54:28 CDT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-017c-1ae0-2084-000007413eb0 
+on database directory /home/cel/eclipse-workspace/cop4027/acp-project1/myDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@531d72ca 
+Loaded from file:/home/cel/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=16.0.2+7-67
+user.dir=/home/cel/eclipse-workspace/cop4027/acp-project1
+os.name=Linux
+os.arch=amd64
+os.version=5.10.61-1-MANJARO
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
